@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_galeria.xml" value="0.22" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_inicio.xml" value="0.33" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_main.xml" value="0.1578125" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_pestanias.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_television.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/activity_tomar_foto.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/fragment_barra__progreso.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/fragment_horaf.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout-land/fragment_ubicacion__real.xml" value="0.17019400352733685" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_acercade.xml" value="0.33" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_fragment_hora.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_fragment_progress.xml" value="0.33" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_fragment_ubi.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_galeria.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_inicio.xml" value="0.3133116883116883" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_linterna.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_pestanias.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_television.xml" value="0.22" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/activity_tomar_foto.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/fragment_barra__progreso.xml" value="0.15" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/fragment_horaf.xml" value="0.1875" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/fragment_ubicacion.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/fragment_ubicacion__real.xml" value="0.1875" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/layout/gallery_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1905" />
+        <entry key="..\:/Users/carlo/AndroidStudioProjects/CAHV/app/src/main/res/xml/filepaths.xml" value="0.20104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

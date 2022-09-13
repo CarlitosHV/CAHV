@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bienvenida">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/menu"
+                android:textSize="20sp" />
+
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal"
+                android:rowCount="8">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:text="@string/acercade"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/television" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/galeria" />
+
+                <ImageButton
+                    android:id="@+id/btnAcercade"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/ico"
+                    android:contentDescription="@string/acercade" />
+
+                <ImageButton
+                    android:id="@+id/btnTelevision"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/tv"
+                    android:contentDescription="@string/television" />
+
+                <ImageButton
+                    android:id="@+id/btnGaleria"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/galeria"
+                    android:contentDescription="@string/galeria" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="60dp"
+                    android:paddingStart="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/camara" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/linterna" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="@string/pestanias" />
+
+                <ImageButton
+                    android:id="@+id/btnCamara"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/camara"
+                    android:contentDescription="@string/camara" />
+
+                <ImageButton
+                    android:id="@+id/btnLinterna"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/antorchaoff"
+                    android:contentDescription="@string/encendido" />
+
+                <ImageButton
+                    android:id="@+id/btnPestanias"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/navegadores"
+                    android:contentDescription="@string/pestanias" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/salir" />
+
+
+                <ImageButton
+                    android:id="@+id/btnSalir"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_row="7"
+                    android:layout_column="0"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/exit"
+                    android:contentDescription="@string/salir" />
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+</ScrollView>

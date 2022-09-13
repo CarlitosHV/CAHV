@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bienvenida">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="@string/menu"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/acercade"/>
+
+            <ImageButton
+                android:id="@+id/btnAcercade"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/ico"
+                android:contentDescription="@string/acercade" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:rowCount="8"
+                android:columnCount="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/television"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/galeria"/>
+
+
+                <ImageButton
+                    android:id="@+id/btnTelevision"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/tv"
+                    android:contentDescription="@string/television" />
+
+                <ImageButton
+                    android:id="@+id/btnGaleria"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/galeria"
+                    android:contentDescription="@string/galeria" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/camara"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/linterna"/>
+
+                <ImageButton
+                    android:id="@+id/btnCamara"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/camara"
+                    android:layout_marginBottom="30dp"
+                    android:contentDescription="@string/camara"/>
+
+                <ImageButton
+                    android:id="@+id/btnLinterna"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/antorchaoff"
+                    android:layout_marginBottom="30dp"
+                    android:contentDescription="@string/encendido"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/pestanias"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/salir"/>
+
+                <ImageButton
+                    android:id="@+id/btnPestanias"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/navegadores"
+                    android:layout_marginBottom="30dp"
+                    android:contentDescription="@string/pestanias"/>
+
+
+                <ImageButton
+                    android:id="@+id/btnSalir"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/exit"
+                    android:layout_marginBottom="30dp"
+                    android:contentDescription="@string/salir" />
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+</ScrollView>

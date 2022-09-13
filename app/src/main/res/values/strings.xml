@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CAHV</string>
+    <string name="modos">Alternar modo</string>
+    <string name="usuario">Ingresa el usuario</string>
+    <string name="contrasena">Ingresa la contraseña</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="continuar">Continuar</string>
+    <string name="saludo">Iniciar sesión</string>
+    //Strings frame bienvenida
+    <string name="menu">Menú de opciones</string>
+    <string name="acercade">Acerca de</string>
+    <string name="television">Televisión</string>
+    <string name="galeria">Galería</string>
+    <string name="camara">Cámara</string>
+    <string name="linterna">Linterna</string>
+    <string name="pestanias">Pestañas</string>
+    <string name="salir">Salir</string>
+    //Strings para acerca de
+    <string name="imagen">Foto</string>
+    <string name="nombre">Carlos Alberto Hernández Velázquez</string>
+    <string name="regresar">Regresar</string>
+    //Strings video
+    <string name="headervid">Reproducción de video</string>
+    <string name="pausa">Pausa</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="vid1">Video 1</string>
+    <string name="vid2">Video 2</string>
+    <string name="vid3">Video 3</string>
+    //Strings para linterna
+    <string name="encendido">Encender linterna</string>
+    <string name="apagado">Apagar linterna</string>
+    //Strings de tomar foto
+    <string name="tomar_foto">Tomar foto</string>
+    <string name="guardar_foto">Guardar</string>
+    //Strings para pestañas
+    <string name="pestana1">Barra progreso</string>
+    <string name="pestana2">Ubicación actual</string>
+    <string name="pestana3">Hora</string>
+    <string name="satelite">Satélite</string>
+    <string name="hibrido">Híbrido</string>
+    <string name="miubi">Mi Ubicación</string>
+    //Strings para galería
+    <string name="nombregal">Galería</string>
+    <string name="buscar">Buscar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="atras">Anterior</string>
+    <string name="lhora">La hora es:</string>
+
+</resources>
